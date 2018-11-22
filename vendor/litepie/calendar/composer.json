@@ -1,0 +1,21 @@
+{
+    "name": "litepie/calendar",
+    "description": "Calendar package for Lavalite",
+    "keywords": ["lavalite", "calendar"],
+    "license": "MIT",
+    "homepage": "https://github.com/Lavalite/Calendar",
+    "authors": [
+        {
+            "name": "Renfos Technologies Pvt. Ltd.",
+            "email": "info@renfos.com"
+        }
+    ],
+    "autoload": {
+        "classmap": [
+            "database/seeds"
+        ],
+        "psr-4": { 
+            "Litepie\\Calendar\\": "src" 
+        }
+    }
+}

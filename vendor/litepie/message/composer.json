@@ -1,0 +1,21 @@
+{
+    "name": "litepie/message",
+    "description": "Message bundle for Lavalite",
+    "keywords": ["lavalite", "message"],
+    "license": "MIT",
+    "homepage": "https://github.com/Lavalite/Message",
+    "authors": [
+        {
+            "name": "Renfos Technologies Pvt. Ltd.",
+            "email": "info@renfos.com"
+        }
+    ],
+    "autoload": {
+        "classmap": [
+            "database/seeds"
+        ],
+        "psr-4": { 
+            "Litepie\\Message\\": "src" 
+        }
+    }
+}
